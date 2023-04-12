@@ -1,0 +1,20 @@
+{
+  "install": {
+    "include": [
+      "^package\\.json$"
+    ],
+    "exclude": []
+  },
+  "restart": {
+    "include": [
+      "^\\.env$",
+      "^backend/"
+    ],
+    "exclude": [
+      "src/" 
+    ]
+  },
+  "throttle": 2000,
+  "noSavedEvents": true,
+  "comments": "throttle and comments added. Throttle makes it wait 2 sec on refresh."
+}
